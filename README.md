@@ -1,9 +1,9 @@
-📊 Data Analytics Project – End-to-End Workflow
-1. Overview
+**📊 Data Analytics Project – End-to-End Workflow**
+**1. Overview**
 
 This project walks through a full data analytics pipeline — from loading raw data in Python to presenting insights in a Power BI dashboard and a final report. The goal is to demonstrate practical skills in data cleaning, exploratory analysis, SQL querying, visualization, and storytelling.
 
-2. Dataset
+**2. Dataset**
 
 Source: Local CSV/Excel dataset
 
@@ -13,7 +13,7 @@ Purpose: Analyze trends, identify patterns, and build a business-ready dashboard
 
 Typical Issues: Missing values, inconsistent types, outliers, duplicated rows
 
-3. Tools & Technologies
+**3. Tools & Technologies**
 
 Python: Pandas, NumPy, Matplotlib/Seaborn
 
@@ -29,8 +29,8 @@ Gamma App: For auto-generating polished presentations
 
 Git/GitHub: Version control
 
-4. Project Steps
-4.1 Load the Dataset
+**4. Project Steps**
+**4.1 Load the Dataset**
 
 Import CSV/Excel into Python
 
@@ -38,7 +38,7 @@ Inspect schema (rows, columns, types)
 
 Validate data quality before processing
 
-4.2 Exploratory Data Analysis (EDA)
+**4.2 Exploratory Data Analysis (EDA)**
 
 Summary statistics
 
@@ -50,7 +50,7 @@ Detect missing values and unusual patterns
 
 Visualizations (bar, line, histogram, heatmap)
 
-4.3 Data Cleaning
+**4.3 Data Cleaning**
 
 Handle missing values (drop/impute)
 
@@ -62,7 +62,7 @@ Normalize/standardize values if needed
 
 Create derived columns for analysis
 
-4.4 SQL Database Integration
+**4.4 SQL Database Integration**
 
 Dataset loaded into multiple SQL environments to demonstrate versatility:
 
@@ -82,7 +82,7 @@ Writing queries (Aggregation, Joins, Window Functions, CTEs)
 
 Extracting insights directly from SQL
 
-4.5 Power BI Dashboard
+**4.5 Power BI Dashboard**
 
 Interactive dashboard containing:
 
@@ -96,7 +96,7 @@ Filters/slicers for deeper exploration
 
 Insights summary
 
-4.6 Final Report
+**4.6 Final Report**
 
 A concise report summarizing:
 
@@ -108,7 +108,7 @@ Visual insights
 
 Strategic recommendations
 
-4.7 Presentation (Gamma)
+**4.7 Presentation (Gamma)**
 
 A clean, auto-designed slide deck summarizing:
 
@@ -122,7 +122,7 @@ Dashboard results
 
 Conclusions
 
-5. Dashboard Highlights
+**5. Dashboard Highlights**
 
 Customer or sales trends over time
 
@@ -134,7 +134,7 @@ Interactive filters for drill-downs
 
 Executive-level insights
 
-6. Results & Insights
+**6. Results & Insights**
 
 Identified patterns, outliers, and trends
 
@@ -144,21 +144,21 @@ Visual story built through Power BI
 
 Final recommendations for decision-making
 
-7. How to Run This Project
-Clone the repository
+**7. How to Run This Project**
+**Clone the repository**
 git clone <repo-url>
 cd <project-folder>
 
-Set up environment
+**Set up environment**
 pip install -r requirements.txt
 
-Run the Python files / notebooks
+**Run the Python files / notebooks**
 
 Open Jupyter or VS Code:
 
 jupyter notebook
 
-Configure database connection
+**Configure database connection**
 
 Update config.py with:
 
@@ -170,21 +170,21 @@ Password
 
 Database
 
-Run SQL queries
+**Run SQL queries**
 
 Use DBeaver / pgAdmin / SSMS or Python + SQLAlchemy to execute scripts in sql/ folder.
 
-Open the Power BI Dashboard
+**Open the Power BI Dashboard**
 
 Open the .pbix file in Power BI Desktop.
 
-View Report & Presentation
+**View Report & Presentation**
 
 /report/ → PDF or Markdown report
 
 /presentation/ → Gamma export
 
-8. Folder Structure
+**8. Folder Structure**
 project/
 │── data/
 │── notebooks/
